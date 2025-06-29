@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "bash scripts/install-ui-kit.sh",
+    "install:ui-kit": "bash scripts/install-ui-kit.sh"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",

@@ -23,3 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# uikit
+src/my-ui-kit/node_modules/
+src/my-ui-kit/dist
