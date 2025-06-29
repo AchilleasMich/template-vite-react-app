@@ -6,7 +6,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@pages/*": ["src/pages/*"]
+      "@pages/*": ["src/pages/*"],
+      "@ui-kit": ["src/ui-kit/dist"]
     },
     "jsx": "react-jsx",
     "strict": true,

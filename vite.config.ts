@@ -11,4 +11,9 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./src/test/setup.ts",
   },
+  resolve: {
+    alias: {
+      "@ui-kit": "/src/ui-kit/dist", // match tsconfig path key
+    },
+  },
 });
