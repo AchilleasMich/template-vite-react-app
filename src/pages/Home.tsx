@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "ui-kit";
 import { cn } from "@/utils/cn";
 
 const Home: React.FC = () => {
@@ -8,6 +9,9 @@ const Home: React.FC = () => {
       <p className={cn("text-lg text-gray-700")}>
         This is a simple home page using React and Tailwind CSS.
       </p>
+      <Button variant="secondary" onClick={() => alert("Ready to go!")} className="mt-6">
+        Click Me
+      </Button>
     </div>
   );
 };
