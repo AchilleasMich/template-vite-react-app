@@ -2,12 +2,33 @@
   "name": "template-vite-react-app",
   "private": true,
   "version": "0.0.0",
+  "description": "A modern React template with Vite, TypeScript, TailwindCSS, React Router, and Vitest",
+  "author": "AchilleasMich",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AchilleasMich/template-vite-react-app"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "tailwindcss",
+    "template",
+    "starter"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json}\"",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
