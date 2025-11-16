@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage
+.nyc_output
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,6 +32,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS
+Thumbs.db
 
 # uikit
 src/my-ui-kit/node_modules/
